@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body{
+		font-family: 'Open Sans Condensed', sans-serif;
+		background-color: black;
+}
+
+h2	{
+		font-family: 'Open Sans Condensed', sans-serif;
+
+
+}
+
+.navbar	{
+	font-size: 20px;
+	padding: 5px;
+	float: right;
+	text-transform: uppercase;
+	background-color: lightgray;
+}
+
+.danceLogoImg	{
+	width: 100px;
+	height: 50px;
+	float: left;
+	margin-top: 0px;	
+}
+
+.nav 	{
+	padding-top: 15px;
+}
+
+.heroUnitImage	{
+	padding-top: 20px;
+	margin-top: 160px;
+	width: 100%;
+	
+
+}
+
+.jumbotron	{
+	height: 240px;
+	text-align: center;
+	margin-top: 20px;
+	background-image: url('../images/jumbotronImage.jpeg');
+	color: lightblue;
+
+}
+
+.danceImg1, .danceImg2, .danceImg3	{
+	height: 400px;
+	width: 400px;
+	padding: 20px;
+}
+
+p, li 	{
+	color: lightblue;
+}
+
+h2	{
+	color: blue;
+}
+
+.heading, #classHeading, #galleryHeading, #timings	{
+	font-size: 25px;
+}
+
+.heading	{
+	width: 400px;
+	padding: 20px;
+	text-align: justify;
+}
+
+#classHeading	{
+	height: 100px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+
+}
+
+#galleryHeading	{
+	height: 100px;
+	text-align: center;
+	margin-top: 130px;
+	padding-top: 10px;
+}
+
+#timings	{
+	height: 100px;
+	text-align: center;
+	margin-top: 30px;
+	
+}
+.batchRow	{
+	#border: 1px solid black;
+	margin-top: 50px;
+}
+
+li a	{
+	text-decoration: none;
+	
+}
+
+ul a:hover	{
+	color: lightgreen;
+}
+
+.regularBatch	{
+	padding-top: 10px;
+	font-size: 26px;
+	#font-weight: 300px;
+	#width: 300px;
+	height: 320px;
+	font-style: bold;
+	#font-family: 'Dosis', sans-serif;
+	list-style: none;
+
+
+
+}
+
+.specialEventContent	{
+	#font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+	font-style: bold;
+	#width: 300px;
+	height: 320px;
+	text-align: justify;
+}
+
+#myCarousel	{
+	margin-top: 350px;
+}
+
+.gallery {
+	padding-top: 0px;
+}
+
+footer	{
+	background-color: pink;
+	height: 30px;
+	margin-top: 60px;
+	#padding: 10px 10px;
+	width: 100%
+	display:inline;
+	
+}
+
+.subscribe	{
+	font-size: 25px;
+	font-style: bold;
+	margin-top: 30px;
+	padding-bottom: 50px;
+}
+
+.input	{
+	height: 40px;
+	width: 300px;
+	margin-left: 15px;
+	#padding:5px 0;
+	color: black;
+	margin-top: 5px;
+}
+
+#input[type="button"]	{
+	width: 100px;
+	height: 45px;
+	#font-family: 'Dosis', sans-serif;
+	margin-bottom: 100px;
+	margin-left: 50px;
+
+}
+
+
+.social	{
+	margin-top: 30px;
+	display: inline;
+	font-size: 40px;
+	float: right;
+	color: black;
+	letter-spacing: 15px;
+}
+
+.map 	{
+
+	text-align: center;
+}
+
+@media (max-width: 320px)
+
+{
+	
+	.danceImg1, .danceImg2, .danceImg3	{
+	height: 200px;
+	width: 200px;
+	padding: 20px;
+}
+
+h2	{
+	font-size: 20px;
+}
+
+.heading,#classHeading, #galleryHeading, #timings	{
+	font-size: 15px;
+}
+.heading	{
+	width: 200px;
+	padding: 20px;
+	#font-size: 15px;
+	text-align: justify;
+}
+}
+
+@media (max-width: 375px)
+{
+	.danceImg1, .danceImg2, .danceImg3	{
+	height: 200px;
+	width: 200px;
+	padding: 20px;
+
+}
+
+	.heading	{
+	width: 200px;
+	padding: 20px;
+	#font-size: 15px;
+	
+}
+
+h2	{
+	font-size: 20px;
+}
+
+.heading,#classHeading, #galleryHeading, #timings	{
+	font-size: 15px;
+}
+
+}
+
+@media (max-width: 768px)
+{
+		.danceImg1, .danceImg2, .danceImg3	{
+	height: 200px;
+	width: 200px;
+	padding: 20px;
+
+}
+
+	.heading	{
+	width: 200px;
+	padding: 20px;
+	#font-size: 15px;
+	
+}
+
+.heading,#classHeading, #galleryHeading, #timings	{
+	font-size: 15px;
+}
+
+.col-12	{
+	padding: 50px;
+}
+}
